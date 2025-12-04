@@ -44,7 +44,7 @@
     curl -k "https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt" -w "\n" >> "$(python3 -c "import certifi; print(certifi.where())")"
 ```
 
-2. Установка ключей в файл переменных среды .env (`GEMINI_API_KEY`, `OPENAI_API_KEY`, `PROXY_URL`)
+2. Установка ключей в файл переменных среды .env (`GEMINI_API_KEY`, `GIGACHAT_API_KEY`, `PROXY_URL`)
 
 3. Создание виртуальной среды и установка зависимостей
 
