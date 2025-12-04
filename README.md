@@ -46,14 +46,14 @@
 
 2. Установка ключей в файл переменных среды .env (`GEMINI_API_KEY`, `OPENAI_API_KEY`, `PROXY_URL`)
 
-3. Установка зависимостей
+3. Создание виртуальной среды и установка зависимостей
 
 ``` bash
-
+    python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 ```
 
 4. Запуск проекта с тестовыми заданиями
 
 ``` bash
-
+    python3 ./test_task/task.py
 ```
